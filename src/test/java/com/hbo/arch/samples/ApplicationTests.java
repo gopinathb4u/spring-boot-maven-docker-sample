@@ -1,4 +1,4 @@
-package com.hbo.codecommit.samples;
+package com.hbo.arch.samples;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
