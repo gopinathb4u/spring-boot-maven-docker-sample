@@ -1,6 +1,6 @@
 [
   {
     "name": "NGNIX-NEW",
-    "imageUri": "530694037299.dkr.ecr.us-east-1.amazonaws.com/arch/spring-boot-maven-docker-sample"
+    "imageUri": "530694037299.dkr.ecr.us-east-1.amazonaws.com/arch/spring-boot-maven-docker-sample:latest"
   }
 ]
