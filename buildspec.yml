@@ -27,4 +27,6 @@ phases:
       - printf '[{"name":"spring-boot-maven-docker-sample","imageUri":"%s"}]' $REPOSITORY_URI:$IMAGE_TAG > imagedefinitions.json
 #      - docker push $AWS_ACCOUNT_ID.dkr.ecr.$AWS_DEFAULT_REGION.amazonaws.com/$IMAGE_REPO_NAME:$IMAGE_TAG
 artifacts:
-  files: imagedefinitions.json
+  files: 
+    - imagedefinitions.json
+    - appspec.json
