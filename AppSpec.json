@@ -1,0 +1,17 @@
+{
+  "version": 0.0,
+  "Resources": [
+    {
+      "TargetService": {
+        "Type": "AWS::ECS::Service",
+        "Properties": {
+          "TaskDefinition": "arn:aws:ecs:us-east-1:530694037299:task-definition/spring-boot-maven-docker-sample:latest",
+          "LoadBalancerInfo": {
+            "ContainerName": "spring-boot-maven-docker-sample",
+            "ContainerPort": 9090
+          }
+        }
+      }
+    }
+  ]
+}
