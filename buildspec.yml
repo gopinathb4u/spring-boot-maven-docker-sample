@@ -30,3 +30,4 @@ artifacts:
   files: 
     - imagedefinitions.json
     - appspec.json
+    - appspec.yml
