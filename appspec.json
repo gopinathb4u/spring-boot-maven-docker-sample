@@ -5,7 +5,7 @@
       "TargetService": {
         "Type": "AWS::ECS::Service",
         "Properties": {
-          "TaskDefinition": "arn:aws:ecs:us-east-1:530694037299:task-definition/spring-boot-maven-docker-sample:33",
+          "TaskDefinition": "arn:aws:ecs:us-east-1:530694037299:task-definition/spring-boot-maven-docker-sample:37",
           "LoadBalancerInfo": {
             "ContainerName": "spring-boot-maven-docker-sample",
             "ContainerPort": 9090
